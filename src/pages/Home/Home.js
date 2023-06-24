@@ -8,7 +8,6 @@ import { dark } from "@mui/material/styles/createPalette";
 import { green } from "@mui/material/colors";
 import Header from "../../components/Header/Header";
 import { Outlet } from "react-router-dom";
-import TestSidebar from "../TestSidebar/TestSidebar";
 import SideMenu from "../SideMenu/SideMenu";
 
 const Item = styled(Paper)(({ theme }) => ({

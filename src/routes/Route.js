@@ -4,6 +4,7 @@ import Dashboard from "../pages/Dashboard/Dashboard";
 import Home from "../pages/Home/Home";
 import BrandsAndGrop from "../pages/Configurations/BrandsAndGrop/BrandsAndGrop";
 import AddProduct from "../pages/Inventory/AddProduct/AddProduct";
+import ProductInfo from "../pages/Inventory/ProductInfo/ProductInfo";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/inventory/add-product",
         element: <AddProduct></AddProduct>,
+      },
+      {
+        path: "/inventory/product-info",
+        element: <ProductInfo></ProductInfo>,
       },
     ],
   },

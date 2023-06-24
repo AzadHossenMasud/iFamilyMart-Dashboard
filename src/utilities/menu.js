@@ -1,99 +1,101 @@
-import React from "react";
-
-
-
-export const menuItems = [
+const menuItems = [
   {
-    // icon: <HomeOutlinedIcon />,
-    title: "Dashboard",
-    items: [],
-    to:'/'
+      id: 1,
+      title: "Dashboard",
+      subMenuItems: [],
+      to: '/'
   },
   {
-    // icon: <LocalLibraryOutlinedIcon />,
-    title: "Configurations",
-    items: [
-      {
-        title: "Outet Info",
-        items: [],
-        to:'/configuration/outlet-info'
-      },
-      {
-        title: "Brand & Group",
-        items: [],
-        to:'/configuration/brand&shop'
-      },
-      {
-        title: "Model & Size",
-        items: [],
-        to:'/configuration/model&size'
-      },
-    ],
-  },
-  {
-    // icon: <TrendingUpOutlinedIcon />,
-    title: "Employees",
-    items: [
-      {
-        title: "Employees Info",
-        to: "/employees/employees-info",
-      },
-      {
-        title: "Zone Info",
-        to: "/employees/zone-info",
-      },
-      {
-        title: "Employees Attendence",
-        items: [
+      id: 2,
+      title: "Configurations",
+      subMenuItems: [
           {
-            title: "Daily Attendence",
-            to: "/employees/daily-attendence",
+              id: 1,
+              title: "Outlet Info",
+              subMenuItems: [],
+              to: '/configuration/outlet-info'
           },
           {
-            title: "Manage Attendence",
-            to: "/employees/manage-attendence",
+              id: 2,
+              title: "Brand & Group",
+              subMenuItems: [],
+              to: '/configuration/brand&group'
           },
           {
-            title: "Attendence Report",
-            to: "/employees/attendence-report",
+              id: 3,
+              title: "Model & Size",
+              subMenuItems: [],
+              to: '/configuration/model&size'
           },
-        ],
-      },
-    ],
+      ],
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "Suppliers",
-    items:[]
+      id: 3,
+      title: "Employees",
+      subMenuItems: [
+          {
+              id: 1,
+              title: "Employees Info",
+              to: "/employees/employees-info",
+          },
+          {
+              id: 2,
+              title: "Zone Info",
+              to: "/employees/zone-info",
+          },
+          {
+              id: 3,
+              title: "Employees Attendence",
+              to: "/employees/employees-attendence",
+
+
+          },
+      ],
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "Inventory",
-    items:[]
+      id: 4,
+      title: "Suppliers",
+      subMenuItems: []
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "Purchase",
-    items:[]
+      id: 5,
+      title: "Inventory",
+      subMenuItems: [
+          {
+              id: 1,
+              title: "Add Product",
+              to: "/inventory/add-product",
+          },
+          {
+              id: 2,
+              title: "Product Info",
+              to: "/inventory/product-info",
+          },
+      ]
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "Customers",
-    items:[]
+      id: 6,
+      title: "Purchase",
+      subMenuItems: []
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "Sales",
-    items:[]
+      id: 7,
+      title: "Customers",
+      subMenuItems: []
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "Accounting",
-    items:[]
+      id: 8,
+      title: "Sales",
+      subMenuItems: []
   },
   {
-    // icon: <DescriptionOutlinedIcon />,
-    title: "More",
-    items:[]
+      id: 9,
+      title: "Accounting",
+      subMenuItems: []
+  },
+  {
+      id: 10,
+      title: "More",
+      subMenuItems: []
   },
 ];

@@ -27,37 +27,32 @@ const SideMenu = () => {
                     subMenuItems: [],
                     to: '/configuration/brand&group'
                 },
-                {
-                    id: 3,
-                    title: "Model & Size",
-                    subMenuItems: [],
-                    to: '/configuration/model&size'
-                },
+                
             ],
         },
-        {
-            id: 3,
-            title: "Employees",
-            subMenuItems: [
-                {
-                    id: 1,
-                    title: "Employees Info",
-                    to: "/employees/employees-info",
-                },
-                {
-                    id: 2,
-                    title: "Zone Info",
-                    to: "/employees/zone-info",
-                },
-                {
-                    id: 3,
-                    title: "Employees Attendence",
-                    to: "/employees/employees-attendence",
+        // {
+        //     id: 3,
+        //     title: "Employees",
+        //     subMenuItems: [
+        //         {
+        //             id: 1,
+        //             title: "Employees Info",
+        //             to: "/employees/employees-info",
+        //         },
+        //         {
+        //             id: 2,
+        //             title: "Zone Info",
+        //             to: "/employees/zone-info",
+        //         },
+        //         {
+        //             id: 3,
+        //             title: "Employees Attendence",
+        //             to: "/employees/employees-attendence",
 
 
-                },
-            ],
-        },
+        //         },
+        //     ],
+        // },
         {
             id: 4,
             title: "Suppliers",
@@ -71,6 +66,11 @@ const SideMenu = () => {
                     id: 1,
                     title: "Add Product",
                     to: "/inventory/add-product",
+                },
+                {
+                    id: 2,
+                    title: "Product Info",
+                    to: "/inventory/product-info",
                 },
             ]
         },
